@@ -1,0 +1,71 @@
+article {
+    height: 78svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    height: 8rem;
+  }
+  
+  .each-game-div > img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  section > h4 {
+    margin-top: 0.5rem;
+    text-decoration: underline;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .each-game-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .button-wrapper {
+    height: 2rem;
+    width: 9rem;
+    background-image: url(./assets/button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper > button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.4rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+  }
+
+  .button-wrapper > button:active {
+    margin-top: 0.4rem;
+  }
+
+  @media screen and (min-width: 465px) {
+    section {
+        width: 34rem;
+    }
+  }
