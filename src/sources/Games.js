@@ -1,7 +1,7 @@
 export const Games = [
   {
     name: "TicTacToe",
-    description: "You have to make a line with your icon before the PC.",
+    description: "Play with your friend. The first to put same icon three times in line wins",
     image: "./assets/tictactoe.png",
   },
   {

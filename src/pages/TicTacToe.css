@@ -18,12 +18,13 @@
   height: 50%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
 .square {
   height: 3rem;
   width: 3rem;
-  margin-left: 0.7rem;
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   border: 1px solid black;
