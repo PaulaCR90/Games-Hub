@@ -41,7 +41,7 @@ article {
   .button-wrapper {
     height: 2rem;
     width: 9rem;
-    background-image: url(./assets/button.png);
+    background-image: url("./assets/button.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
