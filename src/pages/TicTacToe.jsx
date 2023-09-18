@@ -72,7 +72,7 @@ function Tictactoe() {
         <Square isSelected={turn === TURNS.O}>Turno de {TURNS.O}</Square>
       </div>
       <WinnerModal resetGame={resetGame} winner={winner} />
-      <div className="button-wrapper">
+      <div className="button-wrapper back-div">
         <NavLink to="/">
           <button className="back">Back home</button>
         </NavLink>

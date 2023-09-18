@@ -27,3 +27,15 @@ export const WORDS = [
   "madera",
   "termostato",
 ];
+
+export const KEYBOARD_TOP = [
+  "q", "w", "e", "r", "t", "y", "u", "i", "o", "p"
+]
+
+export const KEYBOARD_MID = [
+  "a", "s", "d", "f", "g", "h", "j", "k", "l"
+]
+
+export const KEYBOARD_BOTTOM = [
+  "z", "x", "c", "v", "b", "n", "m"
+]

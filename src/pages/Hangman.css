@@ -1,0 +1,24 @@
+.letter {
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.hangman-game {
+    display: flex;
+}
+
+.hangman {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button:hover {
+    background-color: orange;
+    cursor: pointer;
+    border: 0;
+}
+

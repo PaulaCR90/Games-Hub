@@ -1,0 +1,24 @@
+.keyboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+  }
+
+  .keyboard-top, .keyboard-mid, 
+  .keyboard-bottom {
+    display: flex;
+    gap: 0.2rem;
+  }
+  
+  .keyboard-top button, .keyboard-mid button, 
+  .keyboard-bottom button {
+      width: 1rem;
+      height: 1rem;
+  }
+
+  .button {
+    border: 0;
+  }

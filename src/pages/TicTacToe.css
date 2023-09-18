@@ -84,7 +84,7 @@
   font-size: 1rem;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 465px) {
   .board {
     height: 80svh;
   }
@@ -95,5 +95,14 @@
 
   .turn {
     width: 20%;
+  }
+
+  .winner {
+    width: 20%;
+    height: 25%;
+  }
+
+  .back-div {
+    margin-bottom: 0.5rem;
   }
 }
