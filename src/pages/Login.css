@@ -15,10 +15,4 @@
     margin-top: 1rem;
 }
 
-@media screen and (min-width: 700px) {
-    .login-article {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
+
