@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Play = ({ game }) => {
   return (
     <div className="button-wrapper">
-      <button>
+      <button className="play-button">
         <NavLink to={`/${game.name}`}>Play {game.name}</NavLink>
       </button>
     </div>

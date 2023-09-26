@@ -54,12 +54,15 @@ section > h4 {
 
 .button-wrapper > button {
   background-color: rgba(255, 255, 255, 0);
-  color: black;
   border: 0;
   font-family: "Press Start 2P", cursive;
   font-size: 0.4rem;
   margin-top: 0.3rem;
   cursor: pointer;
+}
+
+.play-button {
+  color: black;
 }
 
 .button-wrapper > button:active {
