@@ -7,12 +7,11 @@ import TicTacToe from "./pages/TicTacToe.jsx";
 import Home from "./pages/Home.jsx";
 import Hangman from "./pages/Hangman.jsx";
 import Sudoku from "./pages/Sudoku.jsx";
-import { CorrectLettersContextProvider } from "./context/correctLetterContext.jsx";
 import Login from "./pages/Login.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CorrectLettersContextProvider>
+
       <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<App />}>
@@ -24,6 +23,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           </Route>
         </Routes>
       </BrowserRouter>
-    </CorrectLettersContextProvider>
   </React.StrictMode>
 );
