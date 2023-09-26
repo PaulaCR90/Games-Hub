@@ -23,10 +23,6 @@
     border: 0;
 }
 
-
-
-
-
 .keyboard {
   width: 100%;
   display: flex;
@@ -65,9 +61,17 @@
   text-align: center;
 }
 
-
-
 .imageToShow {
   width: 5rem;
   height: 5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .board {
+    height: 75svh;
+  }
+
+  .hangman-title {
+    margin-top: 1rem;
+  }
 }

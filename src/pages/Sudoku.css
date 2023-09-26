@@ -1,21 +1,15 @@
 .sudoku-game {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  height: 100%;
+  justify-content: space-evenly;
+  height: 60svh;
   width: 90%;
 }
 
-.sudoku-title {
-  margin-top: 1rem;
-}
-
 .sudoku-div {
-  margin-top: 0.5rem ;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  gap: 2px;
+  gap: 1px;
   width: fit-content;
   height: fit-content;
   border: 2px solid black;
@@ -23,7 +17,9 @@
 
 .Buttons-wrapper {
   display: flex;
-  width: 105%;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90svw;
 }
 
 .dissapear {
@@ -40,6 +36,8 @@
 .numbers button {
   border: 1px solid orange;
   cursor: pointer;
+  border-radius: 25px;
+  margin-top: 0.5rem;
 }
 
 .numbers button:hover {
@@ -62,4 +60,19 @@
 
 .winner.hide {
   display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .sudoku-game {
+    width: 50%;
+  }
+
+  .sudoku-div input {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .sudoku-title {
+    margin-top: 1rem;
+  }
 }

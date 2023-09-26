@@ -93,7 +93,7 @@ const Hangman = () => {
 
   return (
     <article className="board">
-      <h1>Hangman</h1>
+      <h1 className="hangman-title">Hangman</h1>
       <Button text={"Start new game!"} onClick={handleClick} />
       <section className="game hangman-game">
         <img className="imageToShow" src={imageUrl} alt={`Imagen para tries = ${tries}`} />

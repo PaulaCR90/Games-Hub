@@ -109,7 +109,10 @@ const Sudoku = () => {
   return (
     <article className="board">
       <h1 className="sudoku-title">Sudoku</h1>
-      <Button text={"Start new game!"} onClick={resetGame} />
+      <div className="Buttons-wrapper">
+      <Button text={"New game!"} onClick={resetGame} />
+      <Back />
+      </div>
       <section className="game sudoku-game">
         <div className="sudoku-div">
           {sudokuBoard.map((item, index) => (
@@ -160,7 +163,7 @@ const Sudoku = () => {
         />
       )}
 
-      <Back />
+      
     </article>
   );
 };
