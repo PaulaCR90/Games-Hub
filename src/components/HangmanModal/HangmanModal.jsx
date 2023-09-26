@@ -1,8 +1,7 @@
 import React from 'react'
 
 const HangmanModal = ({ winner, handleClick, randomWord }) => {
-//! hacer que se vea la palabra oculta.
-    const winnerText = winner === false ? "Oops! The word was: {randomWord}" : "You won!";
+    const winnerText = winner === false ? `Oops! The word was: ${randomWord}` : "You won!";
     return (
       <section className="winner">
         <div className="text">

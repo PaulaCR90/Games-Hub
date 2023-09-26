@@ -49,6 +49,7 @@ section > h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
 }
 
 .button-wrapper > button {

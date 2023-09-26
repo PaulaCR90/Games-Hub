@@ -5,7 +5,7 @@
 }
 
 .login-section {
-    height: 100%;
+    height: 70%;
     margin-top: 2rem;
 }
 
@@ -13,4 +13,12 @@
     width: 4rem;
     height: 4rem;
     margin-top: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .login-article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
