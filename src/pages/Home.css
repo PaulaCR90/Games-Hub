@@ -61,10 +61,6 @@ section > h4 {
   cursor: pointer;
 }
 
-.play-button {
-  color: black;
-}
-
 .button-wrapper > button:active {
   margin-top: 0.4rem;
 }
