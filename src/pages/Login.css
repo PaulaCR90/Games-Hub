@@ -1,0 +1,16 @@
+.login {
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-section {
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.login-img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+}

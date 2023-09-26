@@ -5,7 +5,8 @@ import Square from "../components/Square/Square";
 import { TURNS } from "../sources/constants";
 import { checkWinnerFrom, checkEndGame } from "../sources/board";
 import WinnerModal from "../components/WinnerModal/WinnerModal";
-import { NavLink } from "react-router-dom";
+import Back from "../components/Buttons/Back";
+import Button from "../components/Buttons/Button";
 
 function Tictactoe() {
   const [board, setBoard] = useState(() => {
@@ -55,9 +56,7 @@ function Tictactoe() {
   return (
     <article className="board">
       <h1>Tictactoe</h1>
-      <div className="button-wrapper">
-        <button onClick={resetGame}>Start game!</button>
-      </div>
+      <Button text={"Start new game!"} onClick={resetGame} />  
       <section className="game">
         {board.map((square, index) => {
           return (
@@ -72,11 +71,7 @@ function Tictactoe() {
         <Square isSelected={turn === TURNS.O}>Turno de {TURNS.O}</Square>
       </div>
       <WinnerModal resetGame={resetGame} winner={winner} />
-      <div className="button-wrapper back-div">
-        <NavLink to="/">
-          <button className="back">Back home</button>
-        </NavLink>
-      </div>
+      <Back />
     </article>
   );
 }

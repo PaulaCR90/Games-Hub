@@ -1,0 +1,65 @@
+.sudoku-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+  width: 90%;
+}
+
+.sudoku-title {
+  margin-top: 1rem;
+}
+
+.sudoku-div {
+  margin-top: 0.5rem ;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px;
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid black;
+}
+
+.Buttons-wrapper {
+  display: flex;
+  width: 105%;
+}
+
+.dissapear {
+    display: none;
+}
+
+#cell,
+.numbers button {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.numbers button {
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.numbers button:hover {
+  background-color: orange;
+}
+
+.highlighted {
+  background-color: orange;
+}
+
+.sudoku-div input {
+  font-size: 1.2rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.winner.show {
+  display: block;
+}
+
+.winner.hide {
+  display: none;
+}

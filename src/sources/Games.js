@@ -12,7 +12,7 @@ export const Games = [
   {
     name: "Sudoku",
     description:
-      "Fill the cells with numbers from 1 to 9.\nDon't repeat any number by case or line.",
+      "Fill the cells with numbers from 0 to 8.\nDon't repeat any number by case or line.",
     image: "./assets/Sudoku.png",
   },
 ];
