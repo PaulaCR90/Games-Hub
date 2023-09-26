@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Buttons.css";
 
 const Play = ({ game }) => {
   return (
